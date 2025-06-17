@@ -1,0 +1,69 @@
+.nav {
+     height: 64px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to right,#00bfff, #f9f968) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    
+    
+}
+.nav:hover {
+  transform: scale(1.03);
+  transition: 300ms;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: visible;
+}
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    text-decoration: none;
+}
+.nav__logo span {
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: rgb(249, 249, 104);
+    font-family: 'Montserrat';
+}
+.nav__links a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(229, 139, 14);
+     transition: 500ms;
+     font-family: 'Montserrat';
+}
+
+.nav__links a:hover {
+    background: linear-gradient(to right, #f9c468, #00bfff);
+   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.nav__options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+

@@ -1,0 +1,66 @@
+.about {
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    gap: 42px;
+    grid-auto-rows: 520px;
+    margin-top: 30px !important;
+     overflow: visible;
+}
+.about h2 {
+    font-size: 24px;
+    color: rgb(229, 139, 14);
+}
+.about p {
+    margin-top: 30px;
+    color: #1e5f75;
+    font-size: 28px;
+}
+
+.about-left {
+  background: linear-gradient(to bottom right, rgb(249, 249, 104), #00bfff);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+}
+.about-left:hover {
+  transition: 300ms;
+  transform: scale(1.03);
+}
+.about-right:hover {
+  transition: 300ms;
+  transform: scale(1.03);
+}
+
+.about-right {
+  background: linear-gradient(to top left ,rgb(249, 249, 104) , #00bfff);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff; 
+}
+.about-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  opacity: 0;
+  transition: opacity 1s ease;
+  
+}
+.about-right:hover img {
+  opacity: 1;
+}
+.about-right button {
+  background: linear-gradient(to right,#f9f968, #00bfff);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.about-right button:hover {
+  transform: scale(1.05);
+  transition: 300ms;
+}
+
